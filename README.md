@@ -33,13 +33,13 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
 ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/AfshanAlamEngg/Rakufin.ai-frontend.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-    cd your-project-directory
+    cd Rakufin.ai-frontend/
 ```
 3. Install dependencies using npm:
 
@@ -75,9 +75,10 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) directly into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them.
 
-Project Structure
+## Project Structure
 The project is organized as follows:
 
+```bash
 /src/components/: Contains reusable React components.
 
 HeroSection: The main banner or hero section of the homepage.
@@ -93,8 +94,9 @@ HomePage: The landing page component for the website.
 /src/HomeApp.js: The entry point for the home module.
 
 /src/index.js: The main entry point for the React application.
+```
 
-Deployment
+## Deployment
 To deploy the project, follow these steps:
 
 Build the project:
@@ -106,24 +108,24 @@ This will create an optimized production build in the build folder.
 
 Deploy the contents of the build folder to your preferred hosting service (e.g., Netlify, Vercel, GitHub Pages).
 
-Learn More
+## Learn More
 You can learn more about Create React App in the Create React App documentation.
 
 To learn React, check out the React documentation.
 
-Additional Configuration
-Code Splitting
+## Additional Configuration
+### Code Splitting
 To optimize loading times, consider implementing code splitting.
 
-Analyzing Bundle Size
+### Analyzing Bundle Size
 You can analyze the bundle size using tools like source-map-explorer after building your app.
 
-Making a Progressive Web App
+### Making a Progressive Web App
 You can turn your app into a Progressive Web App by following the guide here.
 
-Advanced Configuration
+### Advanced Configuration
 For advanced configuration, refer to the official documentation.
 
-Troubleshooting
+## Troubleshooting
 If you encounter issues, refer to the troubleshooting guide.
 
