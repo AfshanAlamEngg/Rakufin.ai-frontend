@@ -145,7 +145,7 @@ const Dashboard = () => {
                         <Card sx={{ backgroundColor: '#fce4ec', borderRadius: '8px', height: 150 }}>
                             <CardContent sx={{ textAlign: 'center' }}>
                                 <Typography variant="h6" component="div">
-                                    Total Properties
+                                    Total B
                                 </Typography>
                                 <Typography variant="h4" component="div" sx={{ fontWeight: 'bold' }}>
                                     {metrics.totalProperties}
@@ -157,7 +157,7 @@ const Dashboard = () => {
                         <Card sx={{ backgroundColor: '#fff3e0', borderRadius: '8px', height: 150 }}>
                             <CardContent sx={{ textAlign: 'center' }}>
                                 <Typography variant="h6" component="div">
-                                    Total Bookings
+                                    Total C
                                 </Typography>
                                 <Typography variant="h4" component="div" sx={{ fontWeight: 'bold' }}>
                                     {metrics.totalBookings}
@@ -169,7 +169,7 @@ const Dashboard = () => {
                         <Card sx={{ backgroundColor: '#e8f5e9', borderRadius: '8px', height: 150 }}>
                             <CardContent sx={{ textAlign: 'center' }}>
                                 <Typography variant="h6" component="div">
-                                    Total Maintenance Requests
+                                    Total D
                                 </Typography>
                                 <Typography variant="h4" component="div" sx={{ fontWeight: 'bold' }}>
                                     {metrics.totalMaintenanceRequests}
@@ -181,7 +181,7 @@ const Dashboard = () => {
                         <Card sx={{ backgroundColor: '#f1f8e9', borderRadius: '8px', height: 150 }}>
                             <CardContent sx={{ textAlign: 'center' }}>
                                 <Typography variant="h6" component="div">
-                                    Total Landlords
+                                    Total E
                                 </Typography>
                                 <Typography variant="h4" component="div" sx={{ fontWeight: 'bold' }}>
                                     {metrics.totalLandlords}
@@ -193,7 +193,7 @@ const Dashboard = () => {
                         <Card sx={{ backgroundColor: '#e1bee7', borderRadius: '8px', height: 150 }}>
                             <CardContent sx={{ textAlign: 'center' }}>
                                 <Typography variant="h6" component="div">
-                                    Total Maintenance Staff
+                                    Total F
                                 </Typography>
                                 <Typography variant="h4" component="div" sx={{ fontWeight: 'bold' }}>
                                     {metrics.totalMaintenanceStaff}
@@ -205,7 +205,7 @@ const Dashboard = () => {
                         <Card sx={{ backgroundColor: '#ffecb3', borderRadius: '8px', height: 150 }}>
                             <CardContent sx={{ textAlign: 'center' }}>
                                 <Typography variant="h6" component="div">
-                                    Avg. Booking Duration
+                                    Total F
                                 </Typography>
                                 <Typography variant="h4" component="div" sx={{ fontWeight: 'bold' }}>
                                     {metrics.avgBookingDuration} days
@@ -217,7 +217,7 @@ const Dashboard = () => {
                         <Card sx={{ backgroundColor: '#cfd8dc', borderRadius: '8px', height: 150 }}>
                             <CardContent sx={{ textAlign: 'center' }}>
                                 <Typography variant="h6" component="div">
-                                    Pending Maintenance Requests
+                                    Total G
                                 </Typography>
                                 <Typography variant="h4" component="div" sx={{ fontWeight: 'bold' }}>
                                     {metrics.pendingMaintenanceRequests}

@@ -29,10 +29,6 @@ const Sidebar = ({ open, setOpen }) => {
                     <ListItemIcon><PersonIcon style={{ color: 'white' }} /></ListItemIcon>
                     <ListItemText primary="Profile" />
                 </ListItem>
-                <ListItem button component={Link} to="landlord">
-                    <ListItemIcon><BusinessIcon style={{ color: 'white' }} /></ListItemIcon>
-                    <ListItemText primary="Landlord" />
-                </ListItem>
             </List>
             <Divider />
             <Box sx={{ display: 'flex', justifyContent: 'center', padding: 1 }}>

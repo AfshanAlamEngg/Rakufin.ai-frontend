@@ -6,7 +6,6 @@ import Sidebar from './components/Sidebar';
 import Settings from './components/Settings';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Profile from './pages/Profile';
-import Landlord from './pages/Landlord'; // Import the new Landlord page
 
 const drawerWidth = 240;
 
@@ -31,7 +30,6 @@ const AdminApp = () => {
                 <Routes>
                     <Route path="dashboard" element={<Dashboard />} />
                     <Route path="profile" element={<Profile />} />
-                    <Route path="landlord" element={<Landlord />} /> {/* Add new route */}
                     <Route path="settings" element={<Settings />} />
                 </Routes>
             </Box>

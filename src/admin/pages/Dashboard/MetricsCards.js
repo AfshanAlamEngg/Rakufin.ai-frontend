@@ -3,14 +3,14 @@ import { Card, CardContent, Typography, Grid } from '@mui/material';
 
 const MetricsCards = ({ metrics }) => {
     const metricsData = [
-        { label: 'Total Users', value: metrics.totalUsers, color: '#e3f2fd' },
-        { label: 'Total Properties', value: metrics.totalProperties, color: '#fce4ec' },
-        { label: 'Total Bookings', value: metrics.totalBookings, color: '#fff3e0' },
-        { label: 'Total Maintenance Requests', value: metrics.totalMaintenanceRequests, color: '#e8f5e9' },
-        { label: 'Total Landlords', value: metrics.totalLandlords, color: '#f1f8e9' },
-        { label: 'Total Maintenance Staff', value: metrics.totalMaintenanceStaff, color: '#e1bee7' },
-        { label: 'Avg. Booking Duration', value: `${metrics.avgBookingDuration} days`, color: '#ffecb3' },
-        { label: 'Pending Maintenance Requests', value: metrics.pendingMaintenanceRequests, color: '#cfd8dc' },
+        { label: 'Total A', value: metrics.totalUsers, color: '#e3f2fd' },
+        { label: 'Total B', value: metrics.totalProperties, color: '#fce4ec' },
+        { label: 'Total C', value: metrics.totalBookings, color: '#fff3e0' },
+        { label: 'Total D', value: metrics.totalMaintenanceRequests, color: '#e8f5e9' },
+        { label: 'Total E', value: metrics.totalLandlords, color: '#f1f8e9' },
+        { label: 'Total F', value: metrics.totalMaintenanceStaff, color: '#e1bee7' },
+        { label: 'Total G', value: `${metrics.avgBookingDuration} days`, color: '#ffecb3' },
+        { label: 'Total H', value: metrics.pendingMaintenanceRequests, color: '#cfd8dc' },
     ];
 
     return (
